@@ -1,4 +1,4 @@
-# phpPgAdmin Docker
+# PHPPgAdmin Docker
 
 Provide a phpPgAdmin to manage PostgreSQL database
 
