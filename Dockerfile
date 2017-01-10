@@ -5,9 +5,6 @@ MAINTAINER Lohan Bodevan <lohan.bodevan@gmail.com>
 # Update
 RUN apt-get update
 
-# Utils
-RUN apt-get install -y vim
-
 # Install Apache
 RUN apt-get install -y apache2
 

@@ -1,17 +1,17 @@
 # PHPPgAdmin Docker
+Simple phpPgAdmin application to manage PostgreSQL databases, running with Docker
 
-Provide a phpPgAdmin to manage PostgreSQL database
+## Resources provisioned
+* PostgreSQL 9.6.1
+* Apache2
+* phpPgAdmin
 
 http://localhost:8889/phppgadmin/
 
-Set your PostgreSQL container name on `Makefile`
-
-## Build
-```
-make install
-```
-
 ## RUN
 ```
-make run
+docker-compose up
 ```
+
+### PostgreSQL credentials
+Default user `postgres` with password `root`
