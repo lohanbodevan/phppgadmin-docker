@@ -9,4 +9,4 @@ services:
     postgres:
         image: postgres:9.6.1
         environment: 
-          - POSTGRES_PASSWORD=root
+          - POSTGRES_PASSWORD="root"
